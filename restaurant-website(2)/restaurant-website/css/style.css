@@ -1,0 +1,17 @@
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
