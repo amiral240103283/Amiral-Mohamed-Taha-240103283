@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TastyBites - Menu</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <div class="brand">TastyBites</div>
+    <button class="menu-btn" aria-label="Toggle menu">Menu</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reservation.php">Reservation</a>
+      <a href="admin/login.php">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Our Menu</h2>
+    <p class="lead">A simple menu with starters, mains, and desserts.</p>
+
+ 
+    <div class="menu-tools">
+      <button class="chip active" data-filter="all" type="button">All</button>
+      <button class="chip" data-filter="starters" type="button">Starters</button>
+      <button class="chip" data-filter="mains" type="button">Main Dishes</button>
+      <button class="chip" data-filter="desserts" type="button">Desserts</button>
+    </div>
+
+  
+    <h3 class="subhead menu-section" data-section="starters">Starters</h3>
+    <div class="grid menu-section" data-section="starters">
+
+      <div class="card">
+        <img src="images/starter1.jpg" alt="Caesar Salad">
+        <div class="pad">
+          <div class="meta">
+            <strong>Caesar Salad <span class="badge">Fresh</span></strong>
+            <span class="price">120 EGP</span>
+          </div>
+          <div class="muted">Crisp lettuce, parmesan, and signature dressing.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/starter2.jpg" alt="Tomato Soup">
+        <div class="pad">
+          <div class="meta">
+            <strong>Tomato Soup <span class="badge">Hot</span></strong>
+            <span class="price">95 EGP</span>
+          </div>
+          <div class="muted">Warm soup with basil and toasted bread.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/starter3.jpg" alt="French Fries">
+        <div class="pad">
+          <div class="meta">
+            <strong>French Fries <span class="badge">Crispy</span></strong>
+            <span class="price">75 EGP</span>
+          </div>
+          <div class="muted">Golden fries served with house dip.</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="height:18px;"></div>
+
+
+    <h3 class="subhead menu-section" data-section="mains">Main Dishes</h3>
+    <div class="grid menu-section" data-section="mains">
+
+      <div class="card">
+        <img src="images/main1.jpg" alt="Grilled Chicken">
+        <div class="pad">
+          <div class="meta">
+            <strong>Grilled Chicken <span class="badge">Chef’s</span></strong>
+            <span class="price">220 EGP</span>
+          </div>
+          <div class="muted">Served with rice and seasonal vegetables.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/main2.jpg" alt="Beef Burger">
+        <div class="pad">
+          <div class="meta">
+            <strong>Beef Burger <span class="badge">Popular</span></strong>
+            <span class="price">170 EGP</span>
+          </div>
+          <div class="muted">Cheddar, lettuce, tomato, and fries.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/main3.jpg" alt="Margherita Pizza">
+        <div class="pad">
+          <div class="meta">
+            <strong>Margherita Pizza <span class="badge">Classic</span></strong>
+            <span class="price">190 EGP</span>
+          </div>
+          <div class="muted">Tomato, mozzarella, basil, and olive oil.</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="height:18px;"></div>
+
+   
+    <h3 class="subhead menu-section" data-section="desserts">Desserts</h3>
+    <div class="grid menu-section" data-section="desserts">
+
+      <div class="card">
+        <img src="images/dessert1.jpg" alt="Chocolate Cake">
+        <div class="pad">
+          <div class="meta">
+            <strong>Chocolate Cake <span class="badge">Sweet</span></strong>
+            <span class="price">110 EGP</span>
+          </div>
+          <div class="muted">Soft cake with chocolate sauce.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/dessert2.jpg" alt="Ice Cream">
+        <div class="pad">
+          <div class="meta">
+            <strong>Ice Cream <span class="badge">Cold</span></strong>
+            <span class="price">85 EGP</span>
+          </div>
+          <div class="muted">Vanilla or chocolate scoops.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/dessert3.jpg" alt="Fruit Salad">
+        <div class="pad">
+          <div class="meta">
+            <strong>Fruit Salad <span class="badge">Light</span></strong>
+            <span class="price">100 EGP</span>
+          </div>
+          <div class="muted">Seasonal fruits with honey drizzle.</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2025 TastyBites</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
